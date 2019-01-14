@@ -10,8 +10,6 @@ function createDefaults(opts) {
   let defaults = {
     env: {
       targets: {
-        node: 'current',
-        electron: '2.0',
         browsers: isEnvDevelopment ? [
           'Safari >= 11.1',
           'iOS >= 11.4',

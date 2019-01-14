@@ -170,7 +170,7 @@ module.exports = function(api, opts) {
           absoluteRuntime: absoluteRuntimePath
         }
       ],
-      isEnvProduction && [
+      isEnvProduction && !opts.includePropTypes && [
         // Remove PropTypes from production build
         require("babel-plugin-transform-react-remove-prop-types").default,
         {
