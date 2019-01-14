@@ -1,0 +1,5 @@
+{
+  "presets": [
+    ["module:@cyca/babel-presets/parcel"]
+  ]
+}
