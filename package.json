@@ -7,6 +7,9 @@
   "author": "Cyrus Venn Casada",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "preact-cli": "^2.2.1"
   }
 }
