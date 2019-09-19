@@ -1,6 +1,6 @@
 {
-  "name": "@cyca/babel-presets",
-  "version": "0.0.3",
+  "name": "@cyca/babel-preset",
+  "version": "0.0.4",
   "description": "My personal customized babel presets (based on babel-preset-react-app)",
   "main": "index.js",
   "author": "Cyrus Venn Casada",
