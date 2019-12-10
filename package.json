@@ -1,13 +1,14 @@
 {
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "demo/*"
   ],
   "description": "My personal configuration scripts for my projects",
   "author": "Cyrus Venn Casada",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "preact-cli": "^2.2.1"

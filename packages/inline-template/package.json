@@ -7,13 +7,13 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "parcel-bundler": "^1.12.3",
-    "posthtml": "^0.11.3",
-    "posthtml-cli": "^0.4.9",
+    "@babel/core": "^7.7.5",
+    "parcel-bundler": "^1.12.4",
+    "posthtml": "^0.12.0",
+    "posthtml-cli": "^0.5.1",
     "posthtml-inline-assets": "^3.0.0"
   },
   "dependencies": {
-    "preact": "^8.4.2"
+    "preact": "^10.1.0"
   }
 }

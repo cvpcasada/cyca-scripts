@@ -3,7 +3,7 @@
 This package is forked from create-react-app's babel-preset-react-app
 
 - Main entry point (index) is the kitchen sink.
-- cra.js is the nearest to creat-react-app's implementation (but uses async to promises transforms instead of generators)
+- cra.js is the nearest to creat-react-app's implementation (but uses @babel/preset-modules instead of @babel/preset-env)
 - extended.js contains some optionals / nice to have plugins
 
 ## Usage Outside of Create React App

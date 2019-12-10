@@ -1,4 +1,0 @@
-{
-  "presets": [["module:@cyca/babel-presets/parcel"]],
-  "plugins": [["@babel/plugin-proposal-class-properties", { "loose": true }]]
-}

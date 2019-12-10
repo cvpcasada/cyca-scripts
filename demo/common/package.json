@@ -1,0 +1,9 @@
+{
+  "name": "common",
+  "version": "0.1.0",
+  "private": true,
+  "peerDependencies": {
+    "react": ">= 16.8",
+    "react-dom": ">= 16.8"
+  }
+}
