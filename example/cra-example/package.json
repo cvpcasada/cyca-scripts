@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cyca/babel-preset": "^1.0.1-beta.2",
     "@rescripts/cli": "^0.0.13",
     "@rescripts/utilities": "^0.0.6",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/user-event": "^8.0.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "styled-components": "^5.0.0"
   },
   "scripts": {
     "start": "rescripts start",
@@ -20,5 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": ["last 1 chrome version"]
+  "browserslist": [
+    "last 1 chrome version"
+  ]
 }

@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const LazyDiv = React.lazy(() => import(/* webpackChunkName: "Div" */ 'common/Div'));
+const LazyDiv = React.lazy(() =>
+  import(/* webpackChunkName: "Div" */ 'common/Div')
+);
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
-        </p>
+          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -20,10 +22,9 @@ function App() {
             rel="noopener noreferrer"
           >
             Learn React
-        </a>
+          </a>
         </header>
       </LazyDiv>
-
     </React.Suspense>
   );
 }

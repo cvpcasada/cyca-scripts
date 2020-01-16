@@ -2,7 +2,6 @@ require('dotenv').config();
 
 const { getPaths, edit } = require('@rescripts/utilities');
 const fs = require('fs');
-const env = require('@cyca/babel-preset/env');
 
 module.exports = [
   // babel configuration
@@ -13,20 +12,8 @@ module.exports = [
           // module sources + node_modules
           if (babelConfig.exclude) {
             babelConfig.options.presets = [
-              require.resolve('@cyca/babel-preset/dependencies')
-            ]
-
-            // babelConfig.options.presets = [
-            //   [
-            //     require.resolve('babel-preset-react-app'),
-            //     // {
-            //     //   sourceType: 'unambiguous',
-            //     //   ...(env.isEnvTest ? { env: { modules: false } } : {}),
-            //     //   includePropTypes: true,
-            //     //   helpers: true,
-            //     // },
-            //   ],
-            // ];
+              require.resolve('@cyca/babel-preset/dependencies'),
+            ];
           }
           // own source
           else {
@@ -43,5 +30,5 @@ module.exports = [
         ),
         config
       ),
-  }
+  },
 ];

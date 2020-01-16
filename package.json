@@ -2,7 +2,7 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "demo/*"
+    "example/*"
   ],
   "description": "My personal configuration scripts for my projects",
   "author": "Cyrus Venn Casada",
@@ -10,7 +10,5 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "dependencies": {
-    "preact-cli": "^2.2.1"
-  }
+  "version": "1.0.1-beta.0"
 }
