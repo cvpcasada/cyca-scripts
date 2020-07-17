@@ -34,7 +34,7 @@
     "babel-plugin-transform-async-to-promises": "0.8.15",
     "babel-plugin-transform-define": "2.0.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "peerDependencies": {
     "styled-components": ">=4.4.0"
